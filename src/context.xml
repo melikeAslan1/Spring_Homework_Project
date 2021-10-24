@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+	 <bean id="animal" class = "org.egitim.spring.domain.Animal"/>
+	
+	 <bean id="cat" class = "org.egitim.spring.domain.Cat"/>
+	 
+	 <bean id="pet" class = "org.egitim.spring.domain.Pet"/>
+	 
+	 <bean id="spider" class = "org.egitim.spring.domain.Spider"/>
+	
+</beans>
